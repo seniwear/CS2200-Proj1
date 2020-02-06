@@ -1,7 +1,7 @@
 {
   "version": "1.8.2",
   "globalBitSize": 1,
-  "clockSpeed": 1,
+  "clockSpeed": 256,
   "circuits": [
     {
       "name": "Register File",
@@ -3328,7 +3328,7 @@
             "Label location": "NORTH",
             "Output Bitsize": "32",
             "Label": "",
-            "Extension Type": "ZERO"
+            "Extension Type": "SIGN"
           }
         },
         {
